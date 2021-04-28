@@ -21,6 +21,7 @@ RUN refreshenv \
 && gem install oj -v 3.3.10 \
 && gem install json -v 2.2.0 \
 && gem install fluentd -v 1.12.3 \
+&& gem install fluent-plugin-elasticsearch -v 4.0.1 \
 && gem install win32-service -v 2.1.6 \
 && gem install win32-ipc -v 0.7.0 \
 && gem install win32-event -v 0.6.3 \
